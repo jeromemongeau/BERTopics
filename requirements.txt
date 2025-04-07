@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+bertopic[all]
+scikit-learn
+pydantic
