@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-bertopic>=0.15.0
+bertopic
 sentence-transformers==2.2.2
 transformers==4.37.2
 scikit-learn
