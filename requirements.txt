@@ -1,6 +1,8 @@
 fastapi
 uvicorn
-bertopic[all]
-scikit-learn
-pydantic
+bertopic>=0.15.0
+sentence-transformers>=2.2.2
 transformers>=4.30.0
+scikit-learn
+pandas
+numpy
