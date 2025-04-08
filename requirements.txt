@@ -1,8 +1,8 @@
 fastapi
 uvicorn
 bertopic>=0.15.0
-sentence-transformers>=2.2.2
-transformers>=4.30.0
+sentence-transformers==2.2.2
+transformers==4.37.2
 scikit-learn
 pandas
 numpy
