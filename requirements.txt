@@ -1,9 +1,9 @@
 fastapi
 uvicorn
-bertopic
-sentence-transformers
+bertopic==0.16.0
+sentence-transformers==2.2.2
 transformers==4.37.2
 scikit-learn
 pandas
 numpy
-huggingface_hub[hf_xet]
+huggingface_hub==0.20.3
