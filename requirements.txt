@@ -3,3 +3,4 @@ uvicorn
 bertopic[all]
 scikit-learn
 pydantic
+transformers>=4.30.0
