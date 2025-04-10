@@ -48,10 +48,16 @@ async def extract_topics(data: DocumentInput):
         topic_info = topic_model.get_topic_info()
         topic_info_dict = topic_info.to_dict(orient="records")
 
+        #data complet
+        docs_info = topic_model.get_document_info(data.documents)
+        docs_info_dict = docs_info.to_dict(orient="records")
+
         return {
             "topics": topics_list,
-            "topic_info": topic_info_dict
+            "topic_info": topic_info_dict,
+            "document_info": docs_info_dict  #data complet
         }
+
 
     except Exception as e:
         print(f"Error processing request: {str(e)}")
